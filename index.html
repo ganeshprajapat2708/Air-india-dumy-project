@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air India</title>
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="air.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+   
+    <header>
+        <div class="header-container">
+
+            <a href="#" class="navbar-brand"> <img src="img/logo.png" alt="Air India Logo" class="logo"></a>
+            <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="flight.html" target="_self">Flights</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="home.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+    <section class="hero">
+        <div>
+            <h1>Welcome to Air India</h1>
+            <p>Your preferred airline for domestic and international travel</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section><br>
+
+
+    <section class="flight-deals">
+        <div class="container">
+            <h2>Latest Flight Deals</h2>
+            <div class="deal">
+                <img src="img/offer1.avif" alt="Flight Deal 1" class="deal-image">
+                <div class="deal-details">
+                    <h3>New York to Delhi</h3>
+                    <p>Starting from $500</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="deal">
+                <img src="img/offer2.png" alt="Flight Deal 2" class="deal-image">
+                <div class="deal-details">
+                    <h3>London to Mumbai</h3>
+                    <p>Starting from $550</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <!-- Add more deals as needed -->
+            <a href="#" class="btn">view more</a>
+        </div>
+    </section>
+
+    <section class="flight-timetable">
+        <center>
+            <h2>Flight Timetable </h2>
+        </center>
+        <div class="container">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Flight Name</th>
+                        <th>Departure Location</th>
+                        <th>Arrival Location</th>
+                        <th>Departure Time</th>
+                        <th>Arrival Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AI101</td>
+                        <td>Jaipur</td>
+                        <td>New Delhi</td>
+                        <td>09:00</td>
+                        <td>11:30</td>
+                    </tr>
+                    <tr>
+                        <td>AI102</td>
+                        <td>New Delhi</td>
+                        <td>Mumbai</td>
+                        <td>11:45</td>
+                        <td>02:30</td>
+                    </tr>
+
+                    <tr>
+                        <td>AI203</td>
+                        <td>Mumbai</td>
+                        <td>Chennai</td>
+                        <td>03:00</td>
+                        <td>07:30</td>
+                    </tr>
+                    <!-- Add more rows for additional flights -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="features">
+        <center>
+            <h1>Air India Posts</h1>
+        </center>
+        <div class="container">
+            <!-- <div class="feature">
+                <img src="img3.jpeg" alt="Feature 1 Icon" class="feature-icon one ">
+                <h2>Comfortable Flights</h2>
+                <p>Experience the utmost comfort during your journey with Air India.</p>
+            </div> -->
+            <div class="service-item one">
+                <img src="img/comf.jpg" alt="About Flight">
+                <h3>Comfortable Flights</h3>
+                <p>Experience the utmost comfort during your journey with Air India.</p>
+                <br><br><br><br><br><br>
+                <a href="#" class="btn">View more</a>
+            </div>
+            <div class="service-item  one">
+                <img src="img/suffly.avif" alt="About Flight">
+                <h2>On-time Performance</h2>
+                <p>Count on us for punctual departures and arrivals, ensuring a hassle-free travel experience.</p>
+                <br><br><br><br><br>
+                <a href="#" class="btn">View more</a>
+            </div>
+            <div class="service-item one">
+                <img src="img/hand.jpg" alt="About Flight">
+                <h2>Worldwide Destinations</h2>
+                <p>Explore our vast network of destinations across the globe.</p>
+                <br><br><br><br><br><br>
+                <a href="#" class="btn">View more</a>
+            </div>
+            <div class="service-item one">
+                <img src="img/cori.webp" alt="About Flight">
+                <h2>Worldwide Destinations</h2>
+                <p>Explore our vast network of destinations across the globe.</p>
+                <br><br><br><br><br><br>
+                <a href="#" class="btn">View more</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Air India</h2>
+                <p>Air India is the flag carrier airline of India, headquartered at New Delhi.<br> It operates a fleet
+                    of
+                    Airbus and Boeing aircraft serving domestic and international destinations.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <b>
+                    <ul>
+                        <li><a href="index.html" target="_self">Home</a></li>
+                        <li><a href="flight.html" target="_self">Flights</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="home.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="Registration.html">Registration</a></li>
+                    </ul>
+
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <form action="#">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address">
+                    <textarea rows="4" name="message" class="text-input contact-input"
+                        placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fa-solid fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Air India | Designed by gpweb2easy@gmail.com
+            <div class="social-media">
+
+
+                <a href="https://www.facebook.com/AirIndia/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/AirIndiaX"><i class="fa-brands fa-twitter "></i></a>
+                <a href="https://www.youtube.com/@AirIndiaOfficialAI"><i class=" fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/airindia/?hl=en"><i class=" fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/airindia/"><i class=" fa-brands fa-linkedin"></i></a>
+
+            </div>
+        </div>
+    </footer>
+    <script src="air.js"></script>
+    <script>
+        function toggleNavbar() {
+            const navbar = document.querySelector('.navbar-nav');
+            navbar.classList.toggle('active');
+        }
+    </script>
+    
+
+
+</body>
+
+</html>
